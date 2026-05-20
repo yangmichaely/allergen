@@ -58,28 +58,27 @@ npm run preview
 
 ## Deploy to GitHub Pages
 
-Automatic deployment is configured via GitHub Actions. Every push to `main` triggers a build and deploy to GitHub Pages.
+Automatic deployment is configured via GitHub Actions. Every push to `main` triggers a build and deploy to GitHub Pages using the official Pages workflow.
 
 **To enable GitHub Pages:**
 
 1. Go to your repository settings: https://github.com/yangmichaely/allergen/settings/pages
 2. Under "Build and deployment":
-   - **Source:** Select "Deploy from a branch"
-   - **Branch:** Select `gh-pages` and `/root`
+   - **Source:** Select "GitHub Actions"
 3. Save and wait for deployment to complete
 
 The app will be live at: `https://yangmichaely.github.io/allergen/`
 
 ### Manual Deployment
 
-To build and deploy manually:
+To test the production build locally:
 
 ```bash
 npm run build
 npm run preview  # Test the build locally
 ```
 
-Then push to the `main` branch - GitHub Actions will handle deployment.
+Then push to the `main` branch - GitHub Actions will handle deployment automatically.
 
 ## Project Structure
 
