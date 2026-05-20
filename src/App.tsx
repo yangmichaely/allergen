@@ -588,7 +588,7 @@ interface DirectoryTabProps {
   setSearchQuery: (query: string) => void
   selectedCategory: string | null
   setSelectedCategory: (category: string | null) => void
-  getSafetyBadge: (status: SafetyStatus) => JSX.Element
+  getSafetyBadge: (status: SafetyStatus) => React.ReactElement
   userProfile: UserProfile
 }
 
