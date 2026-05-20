@@ -1,4 +1,4 @@
-# 🥘 Korean Street Food Allergy Guide
+# 🥘 AllerEats
 
 A comprehensive React + TypeScript app designed for travelers with food allergies navigating Korean street markets. Explore safe Korean street foods, decode hidden allergens, find verified stalls, and generate printable allergy cards in Korean.
 

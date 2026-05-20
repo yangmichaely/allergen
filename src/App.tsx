@@ -534,7 +534,7 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content">
-          <h1>🥘 Korean Street Food Allergy Guide</h1>
+          <h1>🥘 AllerEats</h1>
           <p className="tagline">Navigate Korean street markets safely with your allergy profile</p>
           <button
             className="btn-settings"
@@ -622,7 +622,7 @@ function OnboardingScreen({ onComplete }: OnboardingScreenProps) {
   return (
     <div className="onboarding">
       <div className="onboarding-container">
-        <h1>🥘 Korean Street Food Allergy Guide</h1>
+        <h1>🥘 AllerEats</h1>
         <p className="onboarding-subtitle">
           Explore Korean street food safely with a personalized allergy profile
         </p>
